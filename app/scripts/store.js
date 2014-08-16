@@ -1,1 +1,0 @@
-BNHEmber.ApplicationAdapter = DS.FixtureAdapter;
