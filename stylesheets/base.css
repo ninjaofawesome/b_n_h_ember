@@ -1,0 +1,28 @@
+.ember-application {
+  margin: 20px; }
+
+.post-list {
+  width: 25%;
+  float: left; }
+
+section.post {
+  width: 70%;
+  float: left; }
+
+nav.main ul {
+  list-style-type: none; }
+
+nav.main li {
+  display: inline-block; }
+
+nav.main a {
+  padding: 5px 10px;
+  display: inline-block;
+  background-color: black;
+  color: white; }
+
+nav.main a.active {
+  background-color: blue; }
+
+nav.main a:hover {
+  background-color: red; }
