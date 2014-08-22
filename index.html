@@ -54,12 +54,12 @@
 
     <h1>{{title}}</h1>
     <h6>{{author.name}}</h6>
-    <h6>{{date}}</h6>
+    <h6>{{format-date date}}</h6>
     <aside>
-      {{excerpt}}
+      {{format-markdown excerpt}}
     </aside>
     <article>
-      {{body}}
+      {{format-markdown body}}
     </article>
   </script>
 
